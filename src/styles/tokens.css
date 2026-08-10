@@ -1,0 +1,29 @@
+/* ============================================================
+   TouristTurkey — renk sistemi
+   Boğaz gecesi + İznik turkuazı. Tüm metin renkleri
+   WCAG AA (4.5:1) eşiğinin üstüne çekildi; yorumdaki
+   sayılar beyaz zemin üstündeki gerçek kontrast oranıdır.
+   ============================================================ */
+:root{
+  --ink:#0B1A26;      /* 17.0:1 */
+  --ink2:#22384A;     /* 12.1:1 */
+  --mute:#4A6675;     /* 6.09:1 */
+  --line:#DFE7EB;
+  --bg:#FFFFFF; --bg2:#F4F7F8; --card:#FFFFFF;
+  --iznik:#0E6B6E;    /* 6.27:1 */
+  --brass:#8A5E17;    /* 5.68:1 */
+  --coral:#B0432D;    /* 5.70:1 */
+  --green:#17714D;    /* 5.99:1 */
+  --shadow:0 1px 2px rgba(11,26,38,.05), 0 8px 24px rgba(11,26,38,.06);
+  --r:14px;
+  --display:'Bricolage Grotesque','Trebuchet MS',sans-serif;
+  --body:'Instrument Sans',system-ui,-apple-system,sans-serif;
+  --mono:'JetBrains Mono',ui-monospace,monospace;
+}
+[data-t="dark"]{
+  --ink:#DFE9EC; --ink2:#B9CCD4; --mute:#9BB3BF;
+  --line:rgba(255,255,255,.13);
+  --bg:#0B1A26; --bg2:#08141D; --card:#122A3A;
+  --iznik:#3FC7CB; --brass:#E2B457; --coral:#F08A76; --green:#5FD3A0;
+  --shadow:none;
+}

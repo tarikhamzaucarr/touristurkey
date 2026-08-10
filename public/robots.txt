@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Paneller ve kişisel takip sayfaları indekslenmez
+Disallow: /panel
+Disallow: /tedarikci
+Disallow: /yonetim
+Disallow: /t/
+
+Sitemap: https://touristurkey.com/sitemap.xml

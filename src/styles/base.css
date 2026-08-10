@@ -1,0 +1,24 @@
+/* Sıfırlama, tipografi ve düzen yardımcıları. */
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0}
+body{font-family:var(--body);background:var(--bg);color:var(--ink);
+  -webkit-font-smoothing:antialiased;overflow-x:hidden}
+#root{min-height:100vh;background:var(--bg);color:var(--ink)}
+a{color:inherit;text-decoration:none}
+button,input,textarea,select{font-family:inherit;font-size:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--iznik);outline-offset:2px;border-radius:6px}
+img{max-width:100%;display:block}
+h1,h2,h3,h4{font-family:var(--display);letter-spacing:-.022em;margin:0;font-weight:700;line-height:1.12}
+p{margin:0;line-height:1.62}
+.mono{font-family:var(--mono)}
+
+.wrap{max-width:1080px;margin:0 auto;padding:0 16px}
+.wrap-s{max-width:600px;margin:0 auto;padding:0 16px}
+.stack{display:grid}
+.row{display:flex;align-items:center}
+.between{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.muted{color:var(--mute)}
+.center{text-align:center}
+.hide-sm{display:none}
+@media(min-width:760px){.hide-sm{display:block}}
+

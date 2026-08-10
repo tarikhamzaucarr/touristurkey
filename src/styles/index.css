@@ -1,0 +1,5 @@
+/* Stil giriş noktası. Tailwind'e geçişte tokens.css doğrudan
+   tailwind.config içine taşınacak. */
+@import "./tokens.css";
+@import "./base.css";
+@import "./components.css";
